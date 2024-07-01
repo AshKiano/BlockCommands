@@ -1,0 +1,16 @@
+name: BlockCommands
+version: '${project.version}'
+main: com.ashkiano.blockcommands.BlockCommands
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  blockcommandsreload:
+    description: Reload the BlockCommands config
+    usage: /blockcommandsreload
+permissions:
+  blockcommands.reload:
+    description: Allows the player to reload the BlockCommands config
+    default: op
+  blockcommands.bypass:
+    description: Allows the player to bypass blocked commands
+    default: false
